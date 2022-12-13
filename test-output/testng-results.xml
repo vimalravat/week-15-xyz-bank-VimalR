@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="5" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="18791" started-at="2022-12-13T11:01:36 GMT" finished-at="2022-12-13T11:01:55 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="BankTestPage.customerShouldWithdrawMoneySuccessfully()[pri:0, instance:com.xyzbank.testsuite.BankTestPage@6ee52dcd]" name="customerShouldWithdrawMoneySuccessfully" class="com.xyzbank.testsuite.BankTestPage"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="week-15-xyz-bank" duration-ms="18791" started-at="2022-12-13T11:01:36 GMT" finished-at="2022-12-13T11:01:55 GMT">
+      <class name="com.xyzbank.testsuite.BankTestPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.xyzbank.testsuite.BankTestPage@6ee52dcd]" name="setUp" is-config="true" duration-ms="6546" started-at="2022-12-13T11:01:37 GMT" finished-at="2022-12-13T11:01:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.xyzbank.testsuite.BankTestPage@6ee52dcd]" name="inIt" is-config="true" duration-ms="55" started-at="2022-12-13T11:01:44 GMT" finished-at="2022-12-13T11:01:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="customerShouldWithdrawMoneySuccessfully()[pri:0, instance:com.xyzbank.testsuite.BankTestPage@6ee52dcd]" name="customerShouldWithdrawMoneySuccessfully" duration-ms="10623" started-at="2022-12-13T11:01:44 GMT" finished-at="2022-12-13T11:01:54 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerShouldWithdrawMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.xyzbank.testsuite.BankTestPage@6ee52dcd]" name="tearDown" is-config="true" duration-ms="910" started-at="2022-12-13T11:01:54 GMT" finished-at="2022-12-13T11:01:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyzbank.testsuite.BankTestPage -->
+    </test> <!-- week-15-xyz-bank -->
+  </suite> <!-- Default Suite -->
+</testng-results>
